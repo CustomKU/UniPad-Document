@@ -64,7 +64,7 @@ Include **Sampled music files** which will be used in each button.
 
 - Must use **.wav** extension.
 Encourage **PCM 16bit** codec, and it can be converted by using [GoldWave]
-- The name of sound file should only include **English**, **Numbers**, and **Korean or blanks**cannot be included.
+- The name of sound file should only include **English**, **Numbers**, and **Korean or blanks** cannot be included.
 - Sounds are commonly supported up to **6 sec**
 
 > Possible Examples
@@ -91,7 +91,7 @@ Map sound files in :open_file_folder:sounds on each button.
 | 3		| 8	| 8	| drum1.wav	|				|
 | 4		| 1	| 1	| loop.wav	| 0				|
 
-- The repeat count can be **omitte** and the default value is 1.
+- The repeat count can be **omitted** and the default value is 1.
 - If the repeat count is **0**, sound will  **repeat** while **holding the button**. 
 
 ### Cautions
@@ -269,9 +269,8 @@ Make **Delay time** until the next event.
 [UniPad]:https://www.google.co.kr/search?biw=1920&bih=949&tbm=isch&sa=1&ei=L58bWvfxBMOm0ATa84PQBQ&q=unipad&oq=unipad&gs_l=psy-ab.3..0j0i30k1l9.80809.81424.0.81549.6.6.0.0.0.0.125.597.4j2.6.0....0...1c.1.64.psy-ab..0.6.595....0.jiZ36w7dL2A
 [Ableton Live]:https://www.google.co.kr/search?q=ableton+live&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3_tzK_93XAhVDkJQKHcdgCUEQ_AUICigB&biw=1920&bih=949
 [GoldWave]:https://www.goldwave.com/
-[info]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_ko.md#1-info-page_with_curl
-[sounds]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_ko.md#2-sounds-open_file_folder
-[keySound]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_ko.md#3-keysound--page_with_curl
-[keyLED]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_ko.md#4-keyled-open_file_folder
-[autoPlay]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_ko.md#5-autoplay-page_with_curl
-
+[info]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_en.md#1-info-page_with_curl
+[sounds]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_en.md#2-sounds-open_file_folder
+[keySound]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_en.md#3-keysound--page_with_curl
+[keyLED]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_en.md#4-keyled-open_file_folder
+[autoPlay]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_en.md#5-autoplay-page_with_curl
