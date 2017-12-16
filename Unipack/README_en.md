@@ -1,12 +1,12 @@
 # UniPack Structures
 
-This document deals with **UniPack**, which is a project file of [UniPad].
+This document is about **UniPack**, which is a project file of [UniPad].
 
 ## What is UniPack?
 
-UniPack is a project file of [Unipad]. Aside from **.als** file which is used in [Ableton Live], it uses independent structures. UniPack uses **.zip** extension in archive format.
+UniPack is a project file of [Unipad]. **.als** file which is used in [Ableton Live] have different structure. UniPack uses **.zip** format.
 
-## The structures of UniPack
+## The Structures of UniPack
 
 UniPack largely consists of **5 files**.
 
@@ -14,14 +14,14 @@ UniPack largely consists of **5 files**.
 | :------------ | :-------------------: | :----
 | [info]		| :page_with_curl:		| Include informations of UniPack.
 | [sounds]		| :open_file_folder:	| A folder that includes sound files.
-| [keySound]	| :page_with_curl:		| Map sound files on the button.
+| [keySound]	| :page_with_curl:		| Mapping sound on the button.
 | [keyLED]		| :open_file_folder:	| A folder that includes LED event files.
-| [autoPlay]	| :page_with_curl:		| Include recording records for automatic playing.
+| [autoPlay]	| :page_with_curl:		| Include autoPlay command.
 
 ## Cautions
 
-- **Files** used in UniPack do not have **extensions** expect sound files.
-- File format used is **UTF-8** (BOM x).
+- **Files** used in UniPack do not have **file extensions** expect sound files.
+- Recommend **UTF-8** format. (BOM x)
 - Match **capitalization** with documents.
 - It is opposite with the mathematical coordinate system : X axis is vertical, Y axis is horizontal.
 - Units of time are all **ms**.
@@ -30,7 +30,7 @@ UniPack largely consists of **5 files**.
 
 Define basic informations like title, maker, number of buttons, number of chains.
 
-### The structures of info
+### The Structures of info
 
 | Command		| Format	| Contents
 | ------------- | --------- | ----
@@ -54,7 +54,7 @@ squareButton=true
 
 ### Cautions
 
-- Command **landscape**, which was in last format, was removed. 
+- Command **landscape**, which was in last format, was removed.
 
 ## 2. sounds :open_file_folder:
 
@@ -64,7 +64,7 @@ Include **Sampled music files** which will be used in each button.
 
 - Must use **.wav** extension.
 Encourage **PCM 16bit** codec, and it can be converted by using [GoldWave]
-- The name of sound file should only include **English**, **Numbers**, and **Korean or blanks** cannot be included.
+- The name of sound file should only include **English** and **Numbers**. **blanks** and **Special Characters** cannot be included.
 - Sounds are commonly supported up to **6 sec**
 
 > Possible Examples
