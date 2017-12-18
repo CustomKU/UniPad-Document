@@ -14,13 +14,13 @@ UniPack largely consists of **5 files**.
 | :------------ | :-------------------: | :----
 | [info]		| :page_with_curl:		| Include informations of UniPack.
 | [sounds]		| :open_file_folder:	| A folder that includes sound files.
-| [keySound]	| :page_with_curl:		| Mapping sound on the button.
+| [keySound]	| :page_with_curl:		| Map sound files on the button.
 | [keyLED]		| :open_file_folder:	| A folder that includes LED event files.
 | [autoPlay]	| :page_with_curl:		| Include autoPlay command.
 
 ## Cautions
 
-- **Files** used in UniPack do not have **file extensions** expect sound files.
+- **Files** used in UniPack do not have **file extensions** except sound files.
 - Recommend **UTF-8** format. (BOM x)
 - Match **capitalization** with documents.
 - It is opposite with the mathematical coordinate system : X axis is vertical, Y axis is horizontal.
@@ -64,7 +64,7 @@ Include **Sampled music files** which will be used in each button.
 
 - Must use **.wav** extension.
 Encourage **PCM 16bit** codec, and it can be converted by using [GoldWave]
-- The name of sound file should only include **English** and **Numbers**. **blanks** and **Special Characters** cannot be included.
+- The name of sound file should only include **English** and **Numbers**. **Blanks** and **Special Characters** cannot be included.
 - Sounds are commonly supported up to **6 sec**
 
 > Possible Examples
@@ -81,7 +81,7 @@ Encourage **PCM 16bit** codec, and it can be converted by using [GoldWave]
 
 ## 3. keySound  :page_with_curl:
 
-Map sound files in :open_file_folder:sounds on each button.
+Map sound files in sounds:open_file_folder: on each button.
 
 ### The structures of keySound.
 
@@ -158,7 +158,7 @@ A folder which includes files which contains LED event informations.
 
 Turn LED in **color code** on the coordinates and send **velocity** to the launch pad.
 If the **color code** is **auto**, it selects **color code** automatically.
-Launchpad S, mini show d color.
+Launchpad S, mini show similar color.
 
 -----
 
@@ -184,7 +184,7 @@ Make **Delay time** until the next event.
 
 - Velocity value is to support **communication with launch pad.
 - Encourage **auto**mode instead of color code
-- **LED** that is turned on other file only can be turned off in that file.
+- **LED** that is turned on the other file only can be turned off in that file.
 - If you want to turn off in the other file, overwrite **LED** of the coordinates, and turn off with command **off**.
 > :page_with_curl: 1 1 1
 > ```
@@ -202,8 +202,8 @@ Origin : [launchpad pro's forum](http://forum.launchpad-pro.com/viewtopic.php?id
 
 ## 5. autoPlay :page_with_curl:
 
-Include data about **change button touches or chains** to play pack automatically.
-If you pause after turning auto play, it switches to **Practice mode**, and it also works as a auto play data base.
+Include data about **button touch and chain change** to play pack automatically.
+If you turn on auto play and pause it, it will switches to **Practice mode**, and it also works as an auto play data base.
 You can **record** the **autoPlay** data with the recording function of [UniPad].
 
 ### The structures of autoPlay
@@ -257,7 +257,7 @@ Make **Delay time** until the next event.
 
 ### Cautions
 
-- Events within 20ms are recognized as as simultaneous touches when running practice mode.
+- Events within 20ms are recognized as as simultaneous touches at practice mode.
 
 
 
