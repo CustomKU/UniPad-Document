@@ -163,7 +163,7 @@ A folder which includes files which contains LED event informations.
 Turn LED in **color code** on the coordinates and send **velocity** to the launchpad.
 If the **color code** is **auto**, it selects **color code** automatically.
 Launchpad S, mini show similar color.
-If x is \* set color of circle button's color. (1~32)
+If x is \*, set color of circle button. (1~32)
 
 -----
 
