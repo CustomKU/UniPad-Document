@@ -149,18 +149,21 @@ A folder which includes files which contains LED event informations.
 
 -----
 
-| on	| x	| y	| Color code	| Velocity	|
-| ----- | - | - | ------------- | --------- |
-| on	| 3	| 4	| FFA726		|			|
-| on   	| 3	| 4	| 2196F3		| 45		|
-| on	| 3	| 4	| auto			| 29		|
-| o		| 3	| 4	| FFA726		|			|
-| o		| 3	| 4	| 2196F3		| 45		|
-| o		| 3	| 4	| a				| 29		|
+| on	| x	| y	| 색코드		| 벨로시티	|
+| ----- | - | - | --------- | --------- |
+| on	| 3	| 4	| FFA726	|			|
+| on	| 3	| 4	| 2196F3	| 45		|
+| on	| 3	| 4	| auto		| 29		|
+| on	| *	| 32| auto		| 15		|
+| o		| 3	| 4	| FFA726	|			|
+| o		| 3	| 4	| 2196F3	| 45		|
+| o		| 3	| 4	| a			| 29		|
+| o		| *	| 32| a			| 15		|
 
-Turn LED in **color code** on the coordinates and send **velocity** to the launch pad.
+Turn LED in **color code** on the coordinates and send **velocity** to the launchpad.
 If the **color code** is **auto**, it selects **color code** automatically.
 Launchpad S, mini show similar color.
+If x is \* set color of circle button's color. (1~32)
 
 -----
 
