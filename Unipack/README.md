@@ -1,7 +1,4 @@
-[Korean Document]
-[Korean Document]:https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_ko.md
-
-# Unipack Structure
+[Korean Document](https://github.com/0226daniel/UniPad-Document/blob/master/Unipack/README_ko.md)
 
 # UniPack Structures
 
