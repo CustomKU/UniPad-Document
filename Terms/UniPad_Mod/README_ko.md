@@ -1,4 +1,4 @@
-[English Document](https://github.com/0226daniel/UniPad-Document/blob/master/Terms/UniPad_Mod.md)
+[English Document](https://github.com/0226daniel/UniPad-Document/blob/master/Terms/UniPad_Mod/)
 
 # 유니패드 디컴파일 및 수정
 

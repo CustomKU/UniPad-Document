@@ -1,4 +1,4 @@
-[Korean Document](https://github.com/0226daniel/UniPad-Document/blob/master/Terms/UniPad_Mod_ko.md)
+[Korean Document](https://github.com/0226daniel/UniPad-Document/blob/master/Terms/UniPad_Mod/README_ko.md)
 
 # Decompile or Modify Unipad Code
 

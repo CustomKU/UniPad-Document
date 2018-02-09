@@ -1,2 +1,2 @@
-# UniPad-Document
+# UniPad Terms
 UniPad official Documents
